@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 50vw;
+    text-align: left;
+    margin: 0 auto;
+}
+
+body div p:nth-child(odd){
+    background-color: #F0F0FF;
+}
+
+body div p:nth-child(even){
+    background-color: #e5e5f1;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    padding: 0.5rem;
+}
+
+body div{
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 139);
+    font-weight: 700;
+}
+
+a:hover{
+    color: black;
+}
+
+
+
