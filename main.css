@@ -18,7 +18,7 @@ body div p:nth-child(even){
     background-color: #e5e5f1;
 } */
 
-.download-file:nth-child(odd){
+.download-files:nth-child(odd){
     background-color: #F0F0FF;
 }
 
