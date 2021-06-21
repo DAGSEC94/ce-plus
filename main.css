@@ -10,11 +10,19 @@ body{
     font-family: 'Roboto', sans-serif !important;
 }
 
-body div p:nth-child(odd){
+/* body div p:nth-child(odd){
     background-color: #F0F0FF;
 }
 
 body div p:nth-child(even){
+    background-color: #e5e5f1;
+} */
+
+.download-file:nth-child(odd){
+    background-color: #F0F0FF;
+}
+
+.download-files:nth-child(even){
     background-color: #e5e5f1;
 }
 
