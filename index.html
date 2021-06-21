@@ -11,10 +11,15 @@
 </head>
 
 <body>
+<div class="container">
+    <H1>Downloadable test files for Cyber Essentials Plus.</H1>
+    <p>The files listed on this page are inert files and are not malware. The files are not signed and are not commonly downloaded files.
 
+        The files are meant to trigger Software Restriction Policies or Applocker policies based on installing untrusted applications downloaded from the internet.</p>
+</div>
     <div class="container">
         <div class="header-cont">
-            <H1>Macro files</H1>
+            <H3>Macro files</H3>
             <br>
             <p>To access the Macros extract the zip to a folder that is not managed by your anti-virus product
                 (otherwise they will be instantly deleted).
@@ -28,7 +33,7 @@
     </div>
     <div class="container">
         <div class="header-cont">
-            <H1>Container files</H1>
+            <H3>Container files</H3>
         </div>
         <div class="download-files">
             <p><a href="./Containers/CEPlus.7z" download="CEPlus.7z">.7zip</a></p>
@@ -43,7 +48,7 @@
 
     <div class="generic">
         <div class="header-cont">
-            <H1>Generic files</H2>
+            <h3>Generic files</h3>
         </div>
         <div class="download-files">
             <p><a href="./Files/CEPlus.bat" download>.bat</a></p>
@@ -56,25 +61,34 @@
     </div>
     <div class="standard">
         <div class="header-cont">
-            <H1>Standard binaries</H1>
+            <H3>Standard binaries</H3>
         </div>
         <div class="download-files">
             <p><a href="./Standard-Binaries/calc.exe" download>calc.exe</a></p>
-            <p><a href="./Standard-Binaries/sha256.txt" download>sha256</a></p>
+            
         </div>
     </div>
     <div class="msi">
         <div class="header-cont">
-            <H1>.msi installer</H1>
-            <H3>Test installer</H3>
+            <H3>.msi installer</H3>
+            <H4>Test installer</H4>
             <p>This installer will trigger UAC when it is being executed. If the user is prompted for a username and
                 password, it is fine to abort the installation. If the application installs completely, then the user
                 profile has no restrictions or is running as a high-level privilege.</p>
         </div>
-        <p>Test installer <a href="./msi/Test.msi">Test.msi file.</a></p>
-        <p>Potentially unwanted software installer - <a href="./msi/PotentiallyUnwanted.exe">Unwanted software .exe.</a>
-        </p>
+
+        <div class="download-files">
+            <p>Test installer <a href="./msi/Test.msi">Test.msi file.</a></p>
+            <p>Potentially unwanted software installer - <a href="./msi/PotentiallyUnwanted.exe">Unwanted software .exe.</a>
+            </p>
+        </div>
+        
+<H4>Additional information and requirements</H4>
+
+<p>Cyber essentials requirements and guidace is available on <a href="https://www.ncsc.gov.uk/cyberessentials/resources">National Cybersecurity Centre</a></p>
+
     </div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
